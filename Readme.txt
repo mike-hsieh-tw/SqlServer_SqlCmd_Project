@@ -1,3 +1,7 @@
+前置作業: 下載資料庫
+    https://docs.microsoft.com/zh-tw/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+
+
 1.  使用密碼進入資料庫
 
     sqlcmd -S 127.0.0.1 -U sa -P P@ssw0rd -d AdventureWorks2017
