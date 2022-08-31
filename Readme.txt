@@ -14,7 +14,7 @@
 
 
 
-3.  使用Windows驗證進入資料庫
+3.  使用Windows驗證進入資料庫，並且查詢資料
 
     sqlcmd -S 127.0.0.1 -E -d AdventureWorks2017
 
@@ -38,6 +38,6 @@
 
     SET @CMD_SQL = 'sqlcmd -S 127.0.0.1 -E -d AdventureWorks2017 -f 65001 -i D:\DbAdventureWorks\Script.PostDeployment.sql'
 
-    EXEC xp_cmdshell @SQL
+    EXEC xp_cmdshell @CMD_SQL 
 
     
